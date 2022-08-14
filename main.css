@@ -45,8 +45,8 @@ img {
 	margin-top: 50px;
 }
 
-#header-image-container img{
-    width: 50%;
+#header-image-container img {
+	width: 50%;
 }
 
 /*-----main-----*/
@@ -226,7 +226,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 	background-color: #dc6520;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 #subscription .sub-btn {
@@ -236,9 +236,9 @@ button[type="submit"]:hover {
 #search form {
 	margin-top: 50px;
 	margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #search input {
@@ -256,6 +256,7 @@ button[type="submit"]:hover {
 
 #search button {
 	width: 12%;
+	min-width: 40px;
 	margin-left: -4px;
 	padding: 7px 0 6px;
 	border-radius: 0 5px 5px 0;
@@ -337,4 +338,23 @@ button[type="submit"]:hover {
 
 #mail:hover {
 	background-color: #cf3311;
+}
+
+/*-----Media Queries-----*/
+@media screen and (max-width: 700px) {
+	aside {
+		display: block;
+		margin-left: 3%;
+		width: 90%;
+	}
+	main {
+		width: 90%;
+		display: block;
+	}
+	#blog-content {
+		width: 100%;
+	}
+	#logo img {
+		max-width: 60%;
+	}
 }
